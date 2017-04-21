@@ -14,9 +14,9 @@ android {
     signingConfigs {
         releaseSigningConfig {
             storeFile file("testapp.jks")
-            storePassword "adminadmin"
-            keyAlias "MyAndroidKey"
-            keyPassword "adminadmin"
+            storePassword 'adminadmin'
+            keyAlias 'MyAndroidKey'
+            keyPassword 'adminadmin'
         }
     }
     buildTypes {
