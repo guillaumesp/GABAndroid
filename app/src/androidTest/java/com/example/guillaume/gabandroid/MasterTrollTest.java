@@ -1,6 +1,7 @@
 package com.example.guillaume.gabandroid;
 
 import android.content.Context;
+import android.os.SystemClock;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
@@ -54,7 +55,7 @@ public class MasterTrollTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.guillaume.gabandroid", appContext.getPackageName());
-
+        SystemClock.sleep(1500);
         reportHelper.label("No Troll");
 
         onView(withId(R.id.revealBtn)).perform(click());
