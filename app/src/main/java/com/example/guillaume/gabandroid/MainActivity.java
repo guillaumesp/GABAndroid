@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         //Mobile center setup
-        MobileCenter.start(getApplication(), "eb76f60e-ed9d-4057-bb2d-174d04f75aaf", Analytics.class, Crashes.class);
+        MobileCenter.start(getApplication(), "2a75929a-76e5-4c0c-b7b4-f8512fbddd25", Analytics.class, Crashes.class);
 
 
 
