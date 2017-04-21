@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnChngPics(View view) {
 
-        //changePictureImage();
-        //Snackbar.make(view, "Coucou", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+        changePictureImage();
+        Snackbar.make(view, "Coucou", Snackbar.LENGTH_LONG).setAction("Action", null).show();
 
 
     }
