@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         //Mobile center setup
-        MobileCenter.start(getApplication(), "2a75929a-76e5-4c0c-b7b4-f8512fbddd25", Analytics.class, Crashes.class);
+        MobileCenter.start(getApplication(), "2e2a49eb-a6b9-482d-a585-b89510f8f3b1", Analytics.class, Crashes.class);
 
 
 
@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnChngPics(View view) {
 
-        changePictureImage();
-        Snackbar.make(view, "Coucou", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+        //changePictureImage();
+        //Snackbar.make(view, "Coucou", Snackbar.LENGTH_LONG).setAction("Action", null).show();
 
 
     }
